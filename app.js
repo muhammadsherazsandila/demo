@@ -1,6 +1,5 @@
 const express = require("express");
 const app = express();
-const userModel = mongoose.model("user" , userSchema)
 app.get("/", async (req, res) =>{
     res.render("home")
 });
