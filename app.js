@@ -1,5 +1,6 @@
 const express = require("express");
 const app = express();
+app.set("view egine" , "ejs")
 app.get("/", async (req, res) =>{
     res.render("home")
 });
